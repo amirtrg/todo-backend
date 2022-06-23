@@ -6,7 +6,7 @@ const cors = require("cors");
 
 const Port = process.env.PORT||8080;
 
-mongoose.connect(process.env.DATABASE_URL, { useNewUrlParser: true });
+mongoose.connect(process.env.MONGOODB_URI||process.env.DATABASE_URL, { useNewUrlParser: true });
 const db = mongoose.connection;
 
 db.on("error", (error) => console.log(error));
