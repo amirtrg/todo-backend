@@ -1,0 +1,5 @@
+{
+    "env":{
+        "MONGOODB_URI":"mongodb+srv://amir:e7gXWjhNonL8ktZj@cluster0.wipxdx3.mongodb.net/?retryWrites=true&w=majority"
+    }
+}
